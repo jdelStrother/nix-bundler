@@ -1,0 +1,20 @@
+GIT
+  remote: https://github.com/jdelStrother/ruby-audio.git
+  revision: a0c901a05afb6af8a05f64bfa3197f3da6c9d894
+  specs:
+    ruby-audio (1.6.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    akismet (3.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  akismet
+  ruby-audio!
+
+BUNDLED WITH
+   1.17.2
