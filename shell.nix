@@ -10,6 +10,10 @@ let
         buildInputs = [ pkgs.libsndfile ];
       };
     };
+    postBuild = ''
+      # We want the version of bundler in the wrappedRuby package, not this one
+      rm $out/bin/{bundle,bundler}
+    '';
   };
 
 
